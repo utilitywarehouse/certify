@@ -12,8 +12,8 @@ import (
 	"github.com/aws/aws-sdk-go-v2/service/acmpca"
 	iface "github.com/aws/aws-sdk-go-v2/service/acmpca/acmpcaiface"
 
-	"github.com/johanbrandhorst/certify"
-	"github.com/johanbrandhorst/certify/internal/csr"
+	"github.com/utilitywarehouse/certify"
+	"github.com/utilitywarehouse/certify/internal/csr"
 )
 
 // Issuer implements the Issuer interface with a

@@ -6,8 +6,8 @@ import (
 	"crypto/x509/pkix"
 	"encoding/pem"
 
-	"github.com/johanbrandhorst/certify"
-	"github.com/johanbrandhorst/certify/internal/keys"
+	"github.com/utilitywarehouse/certify"
+	"github.com/utilitywarehouse/certify/internal/keys"
 )
 
 // FromCertConfig creates a CSR and private key from the input config and common name.

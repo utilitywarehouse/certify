@@ -15,8 +15,8 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/johanbrandhorst/certify"
-	"github.com/johanbrandhorst/certify/issuers/cfssl"
+	"github.com/utilitywarehouse/certify"
+	"github.com/utilitywarehouse/certify/issuers/cfssl"
 )
 
 var _ = Describe("CFSSL Issuer", func() {

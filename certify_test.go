@@ -20,8 +20,8 @@ import (
 	. "github.com/onsi/gomega"
 	. "github.com/onsi/gomega/gstruct"
 
-	"github.com/johanbrandhorst/certify"
-	"github.com/johanbrandhorst/certify/mocks"
+	"github.com/utilitywarehouse/certify"
+	"github.com/utilitywarehouse/certify/mocks"
 )
 
 //go:generate moq -out mocks/issuer.mock.go -pkg mocks . Issuer

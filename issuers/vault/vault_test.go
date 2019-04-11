@@ -21,9 +21,9 @@ import (
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/grpclog"
 
-	"github.com/johanbrandhorst/certify"
-	"github.com/johanbrandhorst/certify/issuers/vault"
-	"github.com/johanbrandhorst/certify/issuers/vault/proto"
+	"github.com/utilitywarehouse/certify"
+	"github.com/utilitywarehouse/certify/issuers/vault"
+	"github.com/utilitywarehouse/certify/issuers/vault/proto"
 )
 
 //go:generate protoc --go_out=plugins=grpc:./ ./proto/test.proto

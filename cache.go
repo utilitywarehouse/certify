@@ -12,7 +12,7 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/johanbrandhorst/certify/internal/keys"
+	"github.com/utilitywarehouse/certify/internal/keys"
 )
 
 const (

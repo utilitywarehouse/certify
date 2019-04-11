@@ -6,7 +6,7 @@ package mocks
 import (
 	"context"
 	"crypto/tls"
-	"github.com/johanbrandhorst/certify"
+	"github.com/utilitywarehouse/certify"
 	"sync"
 )
 

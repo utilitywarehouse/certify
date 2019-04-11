@@ -12,8 +12,8 @@ import (
 	"github.com/cloudflare/cfssl/auth"
 	"github.com/cloudflare/cfssl/signer"
 
-	"github.com/johanbrandhorst/certify"
-	"github.com/johanbrandhorst/certify/internal/csr"
+	"github.com/utilitywarehouse/certify"
+	"github.com/utilitywarehouse/certify/internal/csr"
 )
 
 // Issuer implements the Issuer interface
