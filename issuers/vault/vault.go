@@ -11,8 +11,8 @@ import (
 
 	"github.com/hashicorp/vault/api"
 
-	"github.com/johanbrandhorst/certify"
-	"github.com/johanbrandhorst/certify/internal/csr"
+	"github.com/utilitywarehouse/certify"
+	"github.com/utilitywarehouse/certify/internal/csr"
 )
 
 // Issuer implements the Issuer interface with a

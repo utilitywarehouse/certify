@@ -12,8 +12,8 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/johanbrandhorst/certify"
-	"github.com/johanbrandhorst/certify/internal/csr"
+	"github.com/utilitywarehouse/certify"
+	"github.com/utilitywarehouse/certify/internal/csr"
 )
 
 var _ = Describe("FromCertConfig", func() {

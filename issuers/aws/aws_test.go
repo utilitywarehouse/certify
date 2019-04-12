@@ -20,9 +20,9 @@ import (
 	. "github.com/onsi/gomega"
 	. "github.com/onsi/gomega/gstruct"
 
-	"github.com/johanbrandhorst/certify"
-	"github.com/johanbrandhorst/certify/issuers/aws"
-	"github.com/johanbrandhorst/certify/issuers/aws/mocks"
+	"github.com/utilitywarehouse/certify"
+	"github.com/utilitywarehouse/certify/issuers/aws"
+	"github.com/utilitywarehouse/certify/issuers/aws/mocks"
 )
 
 //go:generate moq -out mocks/client.mock.go -pkg mocks ../../vendor/github.com/aws/aws-sdk-go-v2/service/acmpca/acmpcaiface ACMPCAAPI
